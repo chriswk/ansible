@@ -1,0 +1,10 @@
+[all]
+generic ansible_connection=local
+uninstall ansible_connection=local
+
+[home]
+kant ansible_connection=local
+kierkegaard ansible_connection=local
+
+[office]
+schopenhauer ansible_connection=local
