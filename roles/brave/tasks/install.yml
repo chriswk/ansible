@@ -1,0 +1,5 @@
+---
+
+- name: Ensure Brave is installed
+  become: yes
+  aur: "{{ brave_package_name }}"
