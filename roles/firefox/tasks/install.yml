@@ -1,0 +1,8 @@
+---
+
+- name: Ensure firefox is installed
+  become: yes
+  pacman:
+    name: "{{ firefox_package_name }}"
+    state: latest
+    update_cache: yes

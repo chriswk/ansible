@@ -4,5 +4,5 @@
   become: yes
   pacman:
     name: "{{ [ chromium_package_name, widevine_package_name ] }}"
-    state: latest
+    state: absent
     update_cache: yes

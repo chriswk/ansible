@@ -1,0 +1,8 @@
+---
+
+- name: Ensure packages are removed
+  become: yes
+  pacman:
+    extra_args: --recursive
+    name: "{{ firefox_package_name }}"
+    state: absent
