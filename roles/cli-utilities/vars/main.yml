@@ -21,6 +21,7 @@ cli_utilities_packages:
   - xclip
   - xdg-utils
   - ripgrep
+  - xcape
 
 cli_utilities_aur_packages:
   - yay
