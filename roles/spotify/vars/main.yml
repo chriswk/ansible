@@ -1,0 +1,7 @@
+---
+
+spotify_aur_packages:
+  - name: spicetify-cli
+  - name: spotify
+    key: 4773BD5E130D1D45
+  - name: spotifywm-git
