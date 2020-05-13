@@ -101,7 +101,7 @@ Note that both, limit and tags, are optional arguments.
       <td>Installs <a href="">gtk3</a> and the default theme.</td>
     </tr>
     <tr>
-      <td><a href="roles/lastpass">lastpass</a></td>
+      <td><a href="roles/lastpass-cli">lastpass</a></td>
       <td>Installs <a href="https://github.com/lastpass/lastpass-cli">lastpass-cli</a>.</td>
     </tr>
     <tr>

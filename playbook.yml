@@ -132,10 +132,10 @@
 #
 # Lastpass
 #
-- hosts: all
-  roles: [ lastpass ]
-  tags:
-    - lastpass
+#- hosts: all
+#  roles: [ lastpass ]
+#  tags:
+#    - lastpass
 
 #
 # Cheat-sheet
