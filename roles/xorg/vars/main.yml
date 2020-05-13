@@ -1,0 +1,9 @@
+---
+
+xorg_packages:
+  - autorandr
+  - xorg-fonts-100dpi
+  - xorg-fonts-75dpi
+  - xorg-xinit
+  - xorg-server
+  - xorg-sev
