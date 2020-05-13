@@ -1,6 +1,7 @@
 ---
 
 cli_utilities_packages:
+  - curl
   - fzf
   - helm
   - htop
@@ -19,6 +20,7 @@ cli_utilities_packages:
   - wget
   - xclip
   - xdg-utils
+  - ripgrep
 
 cli_utilities_aur_packages:
   - yay
