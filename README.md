@@ -12,7 +12,7 @@
 The following command is all you need to have it ready to roll:
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/chriswk/ansible/master/ok.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/chriswk/ansible/master/ansible.sh)"
 ```
 
 And in case of using wget:

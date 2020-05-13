@@ -1,0 +1,17 @@
+---
+
+mirrorlist_countries:
+  - NO
+  - SE
+  - DK
+  - NL
+  - DE
+
+mirrorlist_protocols:
+  - https
+
+st_patches:
+  - scrollback:
+      - st-scrollback
+
+theme: dmg_blue

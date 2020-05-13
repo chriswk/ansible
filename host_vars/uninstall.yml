@@ -1,0 +1,35 @@
+---
+
+#
+# Select roles to uninstall
+#
+# 'install': Install the role
+# 'remove':  Uninstall the role
+# Any other value will ignore the role (neither install nor uninstall)
+#
+alacritty: 'remove'
+bspwm: 'remove'
+chromium: 'remove'
+cht_sh: 'remove'
+cli_utilities: 'remove'
+cursor: 'remove'
+dunst: 'remove'
+fonts: 'remove'
+gtk: 'remove'
+lastpass: 'remove'
+lightdm: 'remove'
+neofetch: 'remove'
+neovim: 'remove'
+picom: 'remove'
+polybar: 'remove'
+qutebrowser: 'remove'
+rofi: 'remove'
+sound: 'remove'
+spotify: 'remove'
+sxhkd: 'remove'
+vifm: 'remove'
+vscode: 'remove'
+xdg_user_dirs: 'remove'
+xorg: 'remove'
+zathura: 'remove'
+zsh: 'remove'

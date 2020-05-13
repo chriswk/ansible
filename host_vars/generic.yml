@@ -1,0 +1,39 @@
+---
+
+#
+# Select roles to install
+#
+# 'install': Install the role
+# 'remove':  Uninstall the role
+# Any other value will ignore the role (neither install nor uninstall)
+#
+alacritty: 'install'
+bspwm: 'install'
+chromium: 'install'
+cht_sh: 'install'
+cli_utilities: 'install'
+cursor: 'install'
+dunst: 'install'
+fonts: 'install'
+gtk: 'install'
+lastpass: 'install'
+lightdm: 'install'
+neofetch: 'install'
+neovim: 'install'
+picom: 'install'
+polybar: 'install'
+qutebrowser: 'install'
+rofi: 'install'
+sound: 'install'
+spotify: 'install'
+sxhkd: 'install'
+vifm: 'install'
+vscode: 'install'
+xdg_user_dirs: 'install'
+xorg: 'install'
+zathura: 'install'
+zsh: 'install'
+
+#
+# Role-specific settings
+#
