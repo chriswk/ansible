@@ -1,0 +1,24 @@
+---
+
+cli_utilities_packages:
+  - fzf
+  - helm
+  - htop
+  - iotop
+  - jq
+  - man-db
+  - man-pages
+  - mpv
+  - ncdu
+  - nmap
+  - ranger
+  - strace
+  - tig
+  - unrar
+  - unzip
+  - wget
+  - xclip
+  - xdg-utils
+
+cli_utilities_aur_packages:
+  - yay

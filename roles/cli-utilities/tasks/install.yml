@@ -1,0 +1,16 @@
+---
+
+- name: Ensure required packages are installed
+  become: yes
+  pacman:
+    name: "{{ cli_utilities_packages }}"
+    state: latest
+    update_cache: yes
+
+- name: Ensure required aur packages are installed
+  include_role:
+    name: aur
+  loop: "{{ cli_utilities_aur_packages }}"
+  vars:
+    aur_package:
+      name: "{{ item }}"
