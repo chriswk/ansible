@@ -1,0 +1,6 @@
+---
+
+dunst_packages:
+  - dunst
+  - libnotify
+  - upower # Required for native notifications on Chromium
