@@ -22,7 +22,8 @@
 # Generate mirrorlist
 #
 - hosts: all
-  roles: [ mirrorlist ]
+  roles:
+    - mirrorlist
   tags: always
 
 #
@@ -54,7 +55,8 @@
 # Set up sudo so aur_builder can run pacman without password
 #
 - hosts: all
-  roles: [ sudo ]
+  roles:
+    - sudo
   tags: always
 
 #
@@ -62,7 +64,8 @@
 #
 
 - hosts: all
-  roles: [ alacritty ]
+  roles:
+    - alacritty
   tags:
     - alacritty
     - desktop
@@ -71,34 +74,18 @@
 # Install bspwm
 #
 - hosts: all
-  roles: [ bspwm, dwm ]
+  roles:
+    - bspwm
   tags:
     - desktop
     - bspwm
 
 #
-# Install suckless desktop
-#
-- hosts: all
-  roles: [ dwm, st, dmenu ]
-  tags:
-    - suckless
-
-#
-# Brave
-#
-- hosts: all
-  roles: [ brave ]
-  tags:
-    - brave
-    - desktop
-    - browsers
-
-#
 # Chromium
 #
 - hosts: all
-  roles: [ chromium ]
+  roles:
+    - chromium
   tags:
     - chromium
     - browsers
@@ -107,7 +94,8 @@
 # Firefox
 #
 - hosts: all
-  roles: [ firefox ]
+  roles:
+    - firefox
   tags:
     - firefox
     - browsers
@@ -117,15 +105,17 @@
 #
 #
 - hosts: all
-  roles: [ fonts ]
+  roles:
+    - fonts
   tags:
-   - fonts
+    - fonts
 
 #
 # Lastpass-cli
 #
 - hosts: all
-  roles: [ lastpass-cli ]
+  roles:
+    - lastpass-cli
   tags:
     - lastpass
 
@@ -141,7 +131,8 @@
 # Cheat-sheet
 #
 - hosts: all
-  roles: [ cht-sh ]
+  roles:
+    - cht-sh
   tags:
     - cht-sh
 
@@ -149,7 +140,8 @@
 # Cli - utils
 #
 - hosts: all
-  roles: [ cli-utilities ]
+  roles:
+    - cli-utilities
   tags:
     - cli-utilities
 
@@ -157,7 +149,8 @@
 # Dunst - notifications
 #
 - hosts: all
-  roles: [ dunst ]
+  roles:
+    - dunst
   tags:
     - dunst
 
@@ -165,7 +158,8 @@
 # LightDM
 #
 - hosts: all
-  roles: [ lightdm ]
+  roles:
+    - lightdm
   tags:
     - lightdm
     - desktop
@@ -174,7 +168,8 @@
 # Openbox
 #
 - hosts: all
-  roles: [ openbox ]
+  roles:
+    - openbox
   tags:
     - openbox
 
@@ -182,7 +177,8 @@
 # NeoVim
 #
 - hosts: all
-  roles: [ neovim ]
+  roles:
+    - neovim
   tags:
     - editor
     - neovim
@@ -191,7 +187,8 @@
 # VS Code
 #
 - hosts: all
-  roles: [ vscode ]
+  roles:
+    - vscode
   tags:
     - editor
     - vscode
@@ -200,7 +197,8 @@
 # Neofetch
 #
 - hosts: all
-  roles: [ neofetch ]
+  roles:
+    - neofetch
   tags:
     - neofetch
 
@@ -208,7 +206,8 @@
 # picom
 #
 - hosts: all
-  roles: [ picom ]
+  roles:
+    - picom
   tags:
     - picom
     - desktop
@@ -217,7 +216,8 @@
 # Polybar
 #
 - hosts: all
-  roles: [ polybar ]
+  roles:
+    - polybar
   tags:
     - polybar
     - desktop
@@ -226,7 +226,8 @@
 # Rofi - application launcher
 #
 - hosts: all
-  roles: [ rofi ]
+  roles:
+    - rofi
   tags:
     - rofi
     - desktop
@@ -235,7 +236,8 @@
 # Sound
 #
 - hosts: all
-  roles: [ sound ]
+  roles:
+    - sound
   tags:
     - sound
     - desktop
@@ -244,7 +246,8 @@
 # Spotify
 #
 - hosts: all
-  roles: [ spotify ]
+  roles:
+    - spotify
   tags:
     - spotify
 
@@ -252,7 +255,8 @@
 # SXHKD
 #
 - hosts: all
-  roles: [ sxhkd ]
+  roles:
+    - sxhkd
   tags:
     - desktop
     - sxhkd
@@ -261,7 +265,8 @@
 # vifm
 #
 - hosts: all
-  roles: [ vifm ]
+  roles:
+    - vifm
   tags:
     - vifm
 
@@ -269,7 +274,8 @@
 # SDKMan
 #
 - hosts: all
-  roles: [ sdkman ]
+  roles:
+    - sdkman
   tags:
     - develop
     - sdkman
@@ -278,7 +284,8 @@
 # Jetbrains
 #
 - hosts: all
-  roles: [ jetbrains-toolbox ]
+  roles:
+    - jetbrains-toolbox
   tags:
     - develop
     - jetbrains
@@ -287,7 +294,8 @@
 # NodeVersionManager
 #
 - hosts: all
-  roles: [ nvm ]
+  roles:
+    - nvm
   tags:
     - develop
     - node
@@ -296,14 +304,16 @@
 #
 
 - hosts: all
-  roles: [ qutebrowser ]
+  roles:
+    - qutebrowser
   tags:
     - qutebrowser
 #
 # Rust
 #
 - hosts: all
-  roles: [ rust ]
+  roles:
+    - rust
   tags:
     - develop
     - rust
@@ -312,7 +322,8 @@
 # xdg-user-dirs
 #
 - hosts: all
-  roles: [ xdg-user-dirs ]
+  roles:
+    - xdg-user-dirs
   tags:
     - desktop
     - xdg-user-dirs
@@ -321,7 +332,8 @@
 # xorg
 #
 - hosts: all
-  roles: [ xorg ]
+  roles:
+    - xorg
   tags:
     - desktop
     - xorg
@@ -330,7 +342,8 @@
 # Zathura
 #
 - hosts: all
-  roles: [ zathura ]
+  roles:
+    - zathura
   tags:
     - zathura
 
@@ -338,6 +351,7 @@
 # Zsh
 #
 - hosts: all
-  roles: [ zsh ]
+  roles:
+    - zsh
   tags:
     - zsh
