@@ -26,13 +26,13 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/chriswk/ansible/master/ok.sh
 A specific profile can be applied by setting the `PROFILE` variable before the bootstraping commands. The definition of these profiles can be found in the `host_vars` directory. If no profile is specified, the [generic profile](host_vars/generic.yml) will be applied. The following example shows how to use this variable:
 
 ```sh
-PROFILE=zoidberg sh -c "$(curl -fsSL https://raw.githubusercontent.com/chriswk/ansible/master/ok.sh)"
+PROFILE=chriswk sh -c "$(curl -fsSL https://raw.githubusercontent.com/chriswk/ansible/master/ok.sh)"
 ```
 
 It is also possible to run only specifc parts by using the `--tags` options. For example, the following command will only run the bootstrap tasks, which will prepare the repositories and install some required packages:
 
 ```sh
-PROFILE=zoidberg TAGS=bootstrap sh -c "$(curl -fsSL https://raw.githubusercontent.com/chriswk/ansible/dotfiles/master/ok.sh)"
+PROFILE=chriswk TAGS=bootstrap sh -c "$(curl -fsSL https://raw.githubusercontent.com/chriswk/ansible/dotfiles/master/ok.sh)"
 ```
 
 ### Running the playbook manually
