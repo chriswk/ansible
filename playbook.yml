@@ -167,11 +167,11 @@
 #
 # Openbox
 #
-- hosts: all
-  roles:
-    - openbox
-  tags:
-    - openbox
+#- hosts: all
+#  roles:
+#    - openbox
+#  tags:
+#    - openbox
 
 #
 # NeoVim
