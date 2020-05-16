@@ -72,7 +72,7 @@ run_playbook() {
             -i inventory \
             --limit $PROFILE \
             --tags $TAGS \
-            --extra-vars "user-id=chriswk"
+            --extra-vars "user_id=chriswk"
             playbook.yml
 }
 
