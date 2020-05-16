@@ -293,12 +293,12 @@
 #
 # NodeVersionManager
 #
-- hosts: all
-  roles:
-    - nvm
-  tags:
-    - develop
-    - node
+#- hosts: all
+#  roles:
+#    - nvm
+#  tags:
+#    - develop
+#    - node
 #
 # QuteBrowser
 #
