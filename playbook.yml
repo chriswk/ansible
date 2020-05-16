@@ -273,12 +273,12 @@
 #
 # SDKMan
 #
-- hosts: all
-  roles:
-    - sdkman
-  tags:
-    - develop
-    - sdkman
+#- hosts: all
+#  roles:
+#    - sdkman
+#  tags:
+#    - develop
+#    - sdkman
 
 #
 # Jetbrains

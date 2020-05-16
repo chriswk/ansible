@@ -1,0 +1,5 @@
+---
+
+- name: Ensure Jetbrains-toolbox is installed
+  become: yes
+  aur: "{{ jetbrains_toolbox_package_name }}"
