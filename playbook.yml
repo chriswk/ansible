@@ -311,12 +311,12 @@
 #
 # Rust
 #
-- hosts: all
-  roles:
-    - rust
-  tags:
-    - develop
-    - rust
+#- hosts: all
+#  roles:
+#    - rust
+#  tags:
+#    - develop
+#    - rust
 
 #
 # xdg-user-dirs
